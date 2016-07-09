@@ -1,0 +1,86 @@
+body{
+	background: #34495e; 	/* or #eaeaea #f4f4f4*/
+	color: rgba(255, 255, 255, 0.9);
+	font-family: 'Arial';
+	font-size: 20px;
+	padding-left: 50px;
+	padding-top: 80px;
+	position: relative;
+	height: 1000px;
+}
+#navbar{
+	background-color: #eaeaea;
+	color: #34495e;
+	height: 450px;
+	width: 200px;
+	margin-top: 100px;
+	padding-top: 5px;
+	padding-left: 5px;
+	border-radius: 8px;
+	position: fixed;
+}
+#navbar li{
+	/*list-style-type: none;*/
+	padding-left: 20px;
+	margin-top: 20px;
+}
+#navbar a{
+	color: #34495e;
+	text-decoration: none;
+}
+#navbar a:hover{
+	color: #eaeaea;
+
+}
+#navbar li:hover{
+	background: #34495e;
+	border-radius: 6px;
+	transition: color 0.5s, background 0.5s;
+}
+#content{
+	height: 860px;
+	margin-top: 100px;
+	margin-left: 260px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 1px solid;
+	/*border-collapse: collapse;*/
+}
+#title{
+	position: fixed;
+}
+/*Create, Edit page*/
+.form-group{
+	margin-bottom: 10px;
+}
+.form-group label
+{
+	width: 200px;
+	display: inline-block;
+}
+/*index page*/
+.row{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.row a{
+	color: #eaeaea;
+	text-decoration: none;
+	text-align: left;
+}
+.row table, th, td{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+.row th, td{
+	text-align: center;
+	width: 100px;
+}
+th#des{
+	width: 300px;
+}
+button.del{
+	background: #34495e;
+	color: #eaeaea;
+	border: 0px;
+}
